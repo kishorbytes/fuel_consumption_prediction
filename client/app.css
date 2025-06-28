@@ -1,0 +1,65 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    /* background-color: #f9f9f9; */
+    background-image: image("../client/img/pexels-clickerhappy-9796.jpg");
+}
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+input {
+    background-color: #f0f0f0;
+    margin-right: 50px;
+}
+h5 {
+    text-align: center;
+    color: #333;
+    font-size: x-large;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+button {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+button:hover {
+    background-color: #218838;
+}
+.result, .error {
+    margin-top: 15px;
+    font-weight: bold;
+}
+.error {
+    color: red;
+}
+#result,h5 {
+    color: #155724;
+    text-align: center;
+    text-decoration: none;
+}
+
+.img {
+    background: url('../client/img/pexels-clickerhappy-9796.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size:100% 100%;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
